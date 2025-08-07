@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for Natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass" :"sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advita05/Natours.git"
+  },
+  "author": "advita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/advita05/Natours/issues"
+  },
+  "homepage": "https://github.com/advita05/Natours#readme",
+  "devDependencies": {
+    "sass": "^1.90.0"
+  }
+}
