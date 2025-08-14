@@ -33,7 +33,7 @@
 }
 
 .section-book {
-  padding: 15rem 0;
+  padding: 25rem 0 15rem 0;
   background-image: linear-gradient(
     to right bottom,
     $color-primary-light,
@@ -49,10 +49,11 @@
       transparent 50%
     ),
     url(../images/nat-10.jpg);
-  background-size: 100%;
+  background-size: cover ,cover;
+  background-position: center;
   border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
-  height: 50rem;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
+  height: 60%;
 
   &__form{
     width: 50%;
