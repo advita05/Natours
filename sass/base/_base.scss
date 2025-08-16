@@ -30,3 +30,10 @@ body {
     font-size: 50%;
   }
 }
+
+
+::selection{
+  background-color: $color-primary;
+  color: white;
+  
+}
